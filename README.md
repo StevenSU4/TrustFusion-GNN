@@ -1,5 +1,8 @@
 # TrustFusion-GNN: Trustworthy Multi-Sensor Fusion for Smart Agriculture IoT
 
+> Course project for **IERG5230** @ CUHK (2026)
+> Yihang SU (1155173753) · Bohan LIU (1155173765)
+
 A three-layer IoT system that collects real-time agricultural sensor data from ESP32 edge nodes, preprocesses it on a Raspberry Pi gateway, and runs a trust-aware Graph Neural Network (GNN) in the cloud to fuse multi-sensor readings with per-sensor trust estimation and uncertainty quantification.
 
 ## System Architecture
