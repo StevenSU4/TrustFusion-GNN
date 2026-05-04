@@ -1,0 +1,7 @@
+# system files
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+# md files
+ITERATION_*.md

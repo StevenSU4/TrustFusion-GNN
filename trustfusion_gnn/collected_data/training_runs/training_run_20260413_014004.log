@@ -1,0 +1,9 @@
+2026-04-13 01:40:04,721 | INFO | Trainer initialized | {"device": "cpu", "num_sensors": 7, "run_name": "simulated_run_20260413_014004", "window_size": 60}
+2026-04-13 01:40:04,721 | INFO | Training started | {"num_epochs": 3, "patience": 2}
+2026-04-13 01:40:35,594 | INFO | Epoch completed | {"epoch": 1, "epoch_time_sec": 30.872555017471313, "f1": 0.3672939573463629, "mae": 1551.0723876953125, "train_loss": 0.9361369026468155, "val_loss": 0.7510563731193542}
+2026-04-13 01:40:35,598 | INFO | New best model | {"best_val_loss": 0.7510563731193542, "epoch": 1}
+2026-04-13 01:41:06,403 | INFO | Epoch completed | {"epoch": 2, "epoch_time_sec": 30.804442882537842, "f1": 0.4241645122792629, "mae": 431.017822265625, "train_loss": 0.5929494550887574, "val_loss": 0.6060993611812592}
+2026-04-13 01:41:06,406 | INFO | New best model | {"best_val_loss": 0.6060993611812592, "epoch": 2}
+2026-04-13 01:41:36,282 | INFO | Epoch completed | {"epoch": 3, "epoch_time_sec": 29.875768899917603, "f1": 0.42119134985763074, "mae": 514.7503051757812, "train_loss": 0.5392966105582866, "val_loss": 0.5894782721996308}
+2026-04-13 01:41:36,284 | INFO | New best model | {"best_val_loss": 0.5894782721996308, "epoch": 3}
+2026-04-13 01:41:36,286 | INFO | Best model restored | {"best_val_loss": 0.5894782721996308}

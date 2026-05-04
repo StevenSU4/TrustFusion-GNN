@@ -1,0 +1,6562 @@
+[
+  {
+    "sample_index": 0,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 14,
+        "end_time": 31,
+        "parameters": {
+          "stuck_value": 51.01710510253906
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "NOISE",
+        "start_time": 7,
+        "end_time": 22,
+        "parameters": {
+          "noise_multiplier": 6.980824381572301
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 1,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 24,
+        "end_time": 53,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "BIAS",
+        "start_time": 20,
+        "end_time": 41,
+        "parameters": {
+          "bias": 8.582843622084962
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 2,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 3,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 17,
+        "end_time": 40,
+        "parameters": {
+          "stuck_value": 28.63043212890625
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 40,
+        "end_time": 56,
+        "parameters": {
+          "noise_multiplier": 8.752787499032708
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 4,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 12,
+        "end_time": 34,
+        "parameters": {
+          "stuck_value": 25.801984786987305
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 15,
+        "end_time": 31,
+        "parameters": {
+          "drift_rate": -0.41062422707439883
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 5,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 21,
+        "end_time": 46,
+        "parameters": {
+          "num_spikes": 8
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 3,
+        "end_time": 30,
+        "parameters": {
+          "stuck_value": 34.58687210083008
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 6,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 7,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 11,
+        "end_time": 27,
+        "parameters": {
+          "num_spikes": 3
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 16,
+        "end_time": 35,
+        "parameters": {
+          "stuck_value": 38.59850311279297
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 8,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 9,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 10,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 31,
+        "end_time": 54,
+        "parameters": {
+          "noise_multiplier": 3.4579002334845845
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "SPIKE",
+        "start_time": 25,
+        "end_time": 44,
+        "parameters": {
+          "num_spikes": 7
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 11,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 28,
+        "end_time": 45,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 38,
+        "end_time": 54,
+        "parameters": {
+          "noise_multiplier": 5.560344425536721
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 12,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 5,
+        "end_time": 33,
+        "parameters": {
+          "drift_rate": 0.4659328845502284
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 25,
+        "end_time": 50,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 13,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 14,
+        "end_time": 36,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "DRIFT",
+        "start_time": 9,
+        "end_time": 26,
+        "parameters": {
+          "drift_rate": -0.39431429206527824
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 14,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 8,
+        "end_time": 26,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 1,
+        "end_time": 18,
+        "parameters": {
+          "drift_rate": -0.13088477587886907
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 15,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 25,
+        "end_time": 53,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 40,
+        "end_time": 59,
+        "parameters": {
+          "drift_rate": -0.1646747817959378
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 16,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 18,
+        "end_time": 42,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 13,
+        "end_time": 28,
+        "parameters": {
+          "stuck_value": 21.965930938720703
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 17,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 7,
+        "end_time": 24,
+        "parameters": {
+          "stuck_value": 30.88174819946289
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 17,
+        "end_time": 45,
+        "parameters": {
+          "drift_rate": 0.4550039719875326
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 18,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 25,
+        "end_time": 43,
+        "parameters": {
+          "noise_multiplier": 8.378193427459461
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 11,
+        "end_time": 35,
+        "parameters": {
+          "drift_rate": 0.29207106881952083
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 19,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 28,
+        "end_time": 54,
+        "parameters": {
+          "noise_multiplier": 6.474292270542429
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 7,
+        "end_time": 29,
+        "parameters": {
+          "num_spikes": 7
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 20,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 21,
+        "end_time": 45,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 0,
+        "end_time": 22,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 21,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 4,
+        "end_time": 33,
+        "parameters": {
+          "stuck_value": 54.10040283203125
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 10,
+        "end_time": 30,
+        "parameters": {
+          "noise_multiplier": 6.083291439808829
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 22,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "STUCK_AT",
+        "start_time": 3,
+        "end_time": 23,
+        "parameters": {
+          "stuck_value": 48.05470275878906
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 45,
+        "end_time": 60,
+        "parameters": {
+          "stuck_value": 44.82914733886719
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 23,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 34,
+        "end_time": 50,
+        "parameters": {
+          "num_spikes": 8
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "DRIFT",
+        "start_time": 17,
+        "end_time": 33,
+        "parameters": {
+          "drift_rate": 0.21168794701200422
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 24,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 21,
+        "end_time": 44,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 28,
+        "end_time": 49,
+        "parameters": {
+          "drift_rate": -0.2600415293486956
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 25,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 21,
+        "end_time": 40,
+        "parameters": {
+          "bias": 9.208992931860518
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 49,
+        "parameters": {
+          "stuck_value": 12929.681640625
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 26,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "BIAS",
+        "start_time": 2,
+        "end_time": 22,
+        "parameters": {
+          "bias": 9.824334514331674
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 6,
+        "end_time": 29,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 27,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 28,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 13,
+        "end_time": 36,
+        "parameters": {
+          "bias": -9.554187730873489
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 15,
+        "end_time": 37,
+        "parameters": {
+          "drift_rate": -0.3111943929027783
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 29,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 26,
+        "end_time": 49,
+        "parameters": {
+          "stuck_value": 26.709720611572266
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 15,
+        "end_time": 38,
+        "parameters": {
+          "num_spikes": 6
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 30,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 31,
+        "end_time": 55,
+        "parameters": {
+          "bias": -8.505171364505204
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 16,
+        "end_time": 44,
+        "parameters": {
+          "stuck_value": 46.117393493652344
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 31,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 34,
+        "end_time": 60,
+        "parameters": {
+          "stuck_value": 35.546844482421875
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 24,
+        "end_time": 39,
+        "parameters": {
+          "stuck_value": 45.64051055908203
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 32,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 33,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 53,
+        "parameters": {
+          "stuck_value": 29.58812141418457
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 12,
+        "end_time": 41,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 34,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 27,
+        "end_time": 48,
+        "parameters": {
+          "noise_multiplier": 4.993750490439352
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 19,
+        "end_time": 35,
+        "parameters": {
+          "bias": -5.15553812758378
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 35,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 32,
+        "end_time": 53,
+        "parameters": {
+          "num_spikes": 6
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 7,
+        "end_time": 28,
+        "parameters": {
+          "bias": 11.729779834131818
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 36,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 44,
+        "end_time": 60,
+        "parameters": {
+          "bias": -5.90916887265106
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 40,
+        "end_time": 56,
+        "parameters": {
+          "drift_rate": 0.104292799168686
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 37,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 38,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 35,
+        "end_time": 50,
+        "parameters": {
+          "bias": -7.381852077731543
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 46,
+        "parameters": {
+          "stuck_value": 44.8903923034668
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 39,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 13,
+        "end_time": 42,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 5,
+        "end_time": 25,
+        "parameters": {
+          "noise_multiplier": 6.463070387146463
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 40,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 22,
+        "end_time": 42,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 18,
+        "end_time": 44,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 41,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 20,
+        "end_time": 43,
+        "parameters": {
+          "noise_multiplier": 4.010163533408455
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 13,
+        "end_time": 38,
+        "parameters": {
+          "noise_multiplier": 3.6612311071900185
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 42,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 18,
+        "end_time": 45,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 27,
+        "end_time": 48,
+        "parameters": {
+          "bias": 14.846711087111188
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 43,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 2,
+        "end_time": 26,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 5,
+        "end_time": 34,
+        "parameters": {
+          "bias": -12.449803215145087
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 44,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 41,
+        "end_time": 59,
+        "parameters": {
+          "stuck_value": 52.4116096496582
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 7,
+        "end_time": 36,
+        "parameters": {
+          "num_spikes": 8
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 45,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 37,
+        "end_time": 57,
+        "parameters": {
+          "noise_multiplier": 8.247601609701874
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 10,
+        "end_time": 28,
+        "parameters": {
+          "drift_rate": -0.22628339713890325
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 46,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 30,
+        "end_time": 48,
+        "parameters": {
+          "num_spikes": 3
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 27,
+        "end_time": 53,
+        "parameters": {
+          "num_spikes": 9
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 47,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 4,
+        "end_time": 26,
+        "parameters": {
+          "bias": -14.709200821434981
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 32,
+        "end_time": 54,
+        "parameters": {
+          "bias": 14.908111232606366
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 48,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 32,
+        "end_time": 60,
+        "parameters": {
+          "stuck_value": 32581.044921875
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 3,
+        "end_time": 19,
+        "parameters": {
+          "drift_rate": -0.3843086412761716
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 49,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "DRIFT",
+        "start_time": 21,
+        "end_time": 48,
+        "parameters": {
+          "drift_rate": 0.4968564336965954
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 44,
+        "end_time": 60,
+        "parameters": {
+          "noise_multiplier": 9.623579975619332
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 50,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 35,
+        "end_time": 59,
+        "parameters": {
+          "num_spikes": 9
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 32,
+        "end_time": 55,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 51,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 52,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 10,
+        "end_time": 34,
+        "parameters": {
+          "num_spikes": 6
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 17,
+        "end_time": 35,
+        "parameters": {
+          "drift_rate": -0.19448715500405808
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 53,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 11,
+        "end_time": 34,
+        "parameters": {
+          "drift_rate": -0.23565019661121223
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 36,
+        "end_time": 60,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 54,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 30,
+        "end_time": 47,
+        "parameters": {
+          "bias": -10.597913739396141
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 37,
+        "end_time": 57,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 55,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 56,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 8,
+        "end_time": 36,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 34,
+        "end_time": 53,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 57,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 58,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 34,
+        "end_time": 54,
+        "parameters": {
+          "num_spikes": 7
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 36,
+        "end_time": 51,
+        "parameters": {
+          "num_spikes": 9
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 59,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 37,
+        "end_time": 60,
+        "parameters": {
+          "drift_rate": -0.11543184087117027
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "DRIFT",
+        "start_time": 8,
+        "end_time": 29,
+        "parameters": {
+          "drift_rate": -0.15940534842145115
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 60,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 22,
+        "end_time": 39,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 23,
+        "end_time": 50,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 61,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 40,
+        "end_time": 56,
+        "parameters": {
+          "noise_multiplier": 3.683815676755457
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "BIAS",
+        "start_time": 33,
+        "end_time": 56,
+        "parameters": {
+          "bias": 9.640230975217431
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 62,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 13,
+        "end_time": 33,
+        "parameters": {
+          "stuck_value": 25.057329177856445
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 5,
+        "end_time": 33,
+        "parameters": {
+          "num_spikes": 8
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 63,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 64,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 17,
+        "end_time": 33,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 36,
+        "end_time": 56,
+        "parameters": {
+          "bias": 9.479444686696356
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 65,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 39,
+        "end_time": 54,
+        "parameters": {
+          "drift_rate": 0.2834813424446242
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 7,
+        "end_time": 30,
+        "parameters": {
+          "stuck_value": 30.853174209594727
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 66,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 22,
+        "end_time": 46,
+        "parameters": {
+          "bias": -7.131520207711754
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 37,
+        "end_time": 59,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 67,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 68,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 31,
+        "end_time": 59,
+        "parameters": {
+          "stuck_value": 46.20610809326172
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 12,
+        "end_time": 34,
+        "parameters": {
+          "drift_rate": 0.3318672826419498
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 69,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 3,
+        "end_time": 31,
+        "parameters": {
+          "bias": 12.512060254925562
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 13,
+        "end_time": 41,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 70,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 23,
+        "end_time": 42,
+        "parameters": {
+          "num_spikes": 9
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 12,
+        "end_time": 35,
+        "parameters": {
+          "stuck_value": 67.55313110351562
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 71,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 20,
+        "end_time": 43,
+        "parameters": {
+          "num_spikes": 6
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 11,
+        "end_time": 39,
+        "parameters": {
+          "bias": 11.628409486273988
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 72,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 37,
+        "end_time": 56,
+        "parameters": {
+          "bias": 9.776613340035603
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 13,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 4.835486995391664
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 73,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 16,
+        "end_time": 39,
+        "parameters": {
+          "bias": 9.115632767887904
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 6,
+        "end_time": 23,
+        "parameters": {
+          "drift_rate": 0.40128952145228614
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 74,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 12,
+        "end_time": 40,
+        "parameters": {
+          "bias": -11.003556392534794
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 17,
+        "end_time": 38,
+        "parameters": {
+          "stuck_value": 47.53264617919922
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 75,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 3,
+        "end_time": 30,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 2,
+        "end_time": 27,
+        "parameters": {
+          "bias": -10.463421514209426
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 76,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 77,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 78,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 6,
+        "end_time": 28,
+        "parameters": {
+          "num_spikes": 5
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 22,
+        "end_time": 37,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 79,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 9,
+        "end_time": 32,
+        "parameters": {
+          "num_spikes": 4
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 25,
+        "end_time": 43,
+        "parameters": {
+          "noise_multiplier": 3.336685172856026
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 80,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 81,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 82,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 18,
+        "end_time": 45,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 16,
+        "end_time": 31,
+        "parameters": {
+          "stuck_value": 22.136457443237305
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 83,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 3,
+        "end_time": 21,
+        "parameters": {
+          "bias": -9.785934673324256
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 15,
+        "end_time": 35,
+        "parameters": {
+          "noise_multiplier": 3.188373453899432
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 84,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 15,
+        "end_time": 36,
+        "parameters": {
+          "noise_multiplier": 9.46800232591794
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 31,
+        "end_time": 58,
+        "parameters": {
+          "bias": -6.778405469762888
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 85,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 27,
+        "end_time": 44,
+        "parameters": {
+          "num_spikes": 5
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 4,
+        "end_time": 19,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 86,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 23,
+        "end_time": 41,
+        "parameters": {
+          "noise_multiplier": 7.333834169567725
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 30,
+        "end_time": 47,
+        "parameters": {
+          "bias": 7.9439550527611065
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 87,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 8,
+        "end_time": 32,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 28,
+        "end_time": 57,
+        "parameters": {
+          "stuck_value": 27.385425567626953
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 88,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 23,
+        "end_time": 50,
+        "parameters": {
+          "noise_multiplier": 7.168418659305425
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 19,
+        "end_time": 45,
+        "parameters": {
+          "noise_multiplier": 6.8368919625159155
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 89,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 22,
+        "end_time": 37,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 21,
+        "end_time": 39,
+        "parameters": {
+          "stuck_value": 20.61395263671875
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 90,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 5,
+        "end_time": 29,
+        "parameters": {
+          "bias": 10.430162541304213
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 5,
+        "end_time": 22,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 91,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 29,
+        "end_time": 54,
+        "parameters": {
+          "bias": 13.34591374095675
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 30,
+        "end_time": 52,
+        "parameters": {
+          "num_spikes": 4
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 92,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 23,
+        "end_time": 41,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 18,
+        "end_time": 38,
+        "parameters": {
+          "drift_rate": 0.47004665192745854
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 93,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 45,
+        "end_time": 60,
+        "parameters": {
+          "drift_rate": 0.32784021793882456
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 27,
+        "end_time": 52,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 94,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 9,
+        "end_time": 29,
+        "parameters": {
+          "num_spikes": 3
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 26,
+        "end_time": 48,
+        "parameters": {
+          "drift_rate": 0.1329165751793973
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 95,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 21,
+        "end_time": 36,
+        "parameters": {
+          "drift_rate": 0.13886903546525195
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 12,
+        "end_time": 38,
+        "parameters": {
+          "num_spikes": 7
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 96,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 97,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 98,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "NOISE",
+        "start_time": 16,
+        "end_time": 37,
+        "parameters": {
+          "noise_multiplier": 8.75402302824383
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 13,
+        "end_time": 29,
+        "parameters": {
+          "bias": 11.540416077818083
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 99,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 22,
+        "end_time": 48,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 26,
+        "end_time": 42,
+        "parameters": {
+          "drift_rate": 0.21589774103222395
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 100,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 2,
+        "end_time": 29,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 0,
+        "end_time": 22,
+        "parameters": {
+          "stuck_value": 44.53915023803711
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 101,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 102,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 41,
+        "end_time": 59,
+        "parameters": {
+          "stuck_value": 18.628929138183594
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 32,
+        "end_time": 49,
+        "parameters": {
+          "drift_rate": 0.17983583927161867
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 103,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 19,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 7.229519697319571
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 15,
+        "end_time": 40,
+        "parameters": {
+          "drift_rate": 0.4627788086562423
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 104,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 105,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 2,
+        "end_time": 29,
+        "parameters": {
+          "stuck_value": 54.103694915771484
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 27,
+        "end_time": 50,
+        "parameters": {
+          "bias": -14.563565378643764
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 106,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 22,
+        "end_time": 44,
+        "parameters": {
+          "noise_multiplier": 8.977402971554413
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 34,
+        "end_time": 59,
+        "parameters": {
+          "stuck_value": 5141.42041015625
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 107,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 108,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 30,
+        "end_time": 57,
+        "parameters": {
+          "stuck_value": 23.29039764404297
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 3,
+        "end_time": 31,
+        "parameters": {
+          "bias": 12.799628328127646
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 109,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 57,
+        "parameters": {
+          "stuck_value": 57.35148620605469
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 0,
+        "end_time": 29,
+        "parameters": {
+          "stuck_value": 29.35072898864746
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 110,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 111,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 13,
+        "end_time": 28,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 18,
+        "end_time": 45,
+        "parameters": {
+          "stuck_value": 52.24072265625
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 112,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 28,
+        "end_time": 46,
+        "parameters": {
+          "noise_multiplier": 7.742172600632088
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 10,
+        "end_time": 34,
+        "parameters": {
+          "num_spikes": 7
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 113,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 17,
+        "end_time": 44,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 17,
+        "end_time": 35,
+        "parameters": {
+          "stuck_value": 37.38761520385742
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 114,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "SPIKE",
+        "start_time": 0,
+        "end_time": 25,
+        "parameters": {
+          "num_spikes": 10
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 33,
+        "end_time": 60,
+        "parameters": {
+          "bias": -11.850214688960046
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 115,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 3,
+        "end_time": 20,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 12,
+        "end_time": 33,
+        "parameters": {
+          "bias": 14.342586356390406
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 116,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 10,
+        "end_time": 38,
+        "parameters": {
+          "stuck_value": 27588.791015625
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 14,
+        "end_time": 35,
+        "parameters": {
+          "noise_multiplier": 6.506623408994942
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 117,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 33,
+        "end_time": 49,
+        "parameters": {
+          "drift_rate": -0.15020751167621313
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 23,
+        "end_time": 50,
+        "parameters": {
+          "stuck_value": 48617.9296875
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 118,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 21,
+        "end_time": 50,
+        "parameters": {
+          "drift_rate": 0.38862863742338083
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "NOISE",
+        "start_time": 17,
+        "end_time": 44,
+        "parameters": {
+          "noise_multiplier": 5.482645123433292
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 119,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 120,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 26,
+        "end_time": 52,
+        "parameters": {
+          "stuck_value": 42.04645538330078
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 1,
+        "end_time": 18,
+        "parameters": {
+          "num_spikes": 10
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 121,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 14,
+        "end_time": 31,
+        "parameters": {
+          "num_spikes": 5
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 12,
+        "end_time": 33,
+        "parameters": {
+          "drift_rate": -0.38078407957497207
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 122,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 25,
+        "end_time": 47,
+        "parameters": {
+          "noise_multiplier": 8.503484598164468
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 25,
+        "end_time": 53,
+        "parameters": {
+          "noise_multiplier": 5.851681547834163
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 123,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 5,
+        "end_time": 32,
+        "parameters": {
+          "num_spikes": 7
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 20,
+        "end_time": 41,
+        "parameters": {
+          "drift_rate": -0.17331228589161246
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 124,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 33,
+        "end_time": 58,
+        "parameters": {
+          "noise_multiplier": 9.33092126578325
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 26,
+        "end_time": 52,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 125,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 11,
+        "end_time": 26,
+        "parameters": {
+          "drift_rate": -0.24996787571638268
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "BIAS",
+        "start_time": 14,
+        "end_time": 30,
+        "parameters": {
+          "bias": -13.626797048796792
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 126,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 12,
+        "end_time": 33,
+        "parameters": {
+          "drift_rate": 0.39996831851176173
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "SPIKE",
+        "start_time": 1,
+        "end_time": 25,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 127,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 5,
+        "end_time": 21,
+        "parameters": {
+          "num_spikes": 10
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 52,
+        "parameters": {
+          "stuck_value": 18966.82421875
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 128,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 28,
+        "end_time": 47,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 41,
+        "end_time": 60,
+        "parameters": {
+          "bias": -7.32155521233044
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 129,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 27,
+        "end_time": 53,
+        "parameters": {
+          "noise_multiplier": 3.4477804676789927
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "DRIFT",
+        "start_time": 19,
+        "end_time": 34,
+        "parameters": {
+          "drift_rate": -0.305712605478088
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 130,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 0,
+        "end_time": 25,
+        "parameters": {
+          "noise_multiplier": 7.210928319156219
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 20,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 8.66076881417981
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 131,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 132,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 34,
+        "end_time": 52,
+        "parameters": {
+          "noise_multiplier": 9.809372863522189
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 5,
+        "end_time": 22,
+        "parameters": {
+          "num_spikes": 7
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 133,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 1,
+        "end_time": 24,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "DRIFT",
+        "start_time": 7,
+        "end_time": 25,
+        "parameters": {
+          "drift_rate": 0.47317306998459074
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 134,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 135,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 20,
+        "end_time": 46,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 21,
+        "end_time": 43,
+        "parameters": {
+          "bias": -10.094272859921418
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 136,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 137,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "NOISE",
+        "start_time": 9,
+        "end_time": 32,
+        "parameters": {
+          "noise_multiplier": 4.429620772413925
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 23,
+        "end_time": 42,
+        "parameters": {
+          "noise_multiplier": 9.120735510143625
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 138,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 6,
+        "end_time": 23,
+        "parameters": {
+          "stuck_value": 53.767059326171875
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 18,
+        "end_time": 42,
+        "parameters": {
+          "num_spikes": 7
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 139,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 14,
+        "end_time": 36,
+        "parameters": {
+          "num_spikes": 9
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 23,
+        "end_time": 44,
+        "parameters": {
+          "noise_multiplier": 7.051506381056308
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 140,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 2,
+        "end_time": 26,
+        "parameters": {
+          "noise_multiplier": 5.726414612112849
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 20,
+        "end_time": 48,
+        "parameters": {
+          "drift_rate": 0.4793201794351606
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 141,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 142,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 27,
+        "end_time": 42,
+        "parameters": {
+          "stuck_value": 46.4057731628418
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 37,
+        "end_time": 53,
+        "parameters": {
+          "noise_multiplier": 4.775393938788958
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 143,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 13,
+        "end_time": 42,
+        "parameters": {
+          "drift_rate": 0.42842881775608344
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 16,
+        "end_time": 38,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 144,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 30,
+        "end_time": 52,
+        "parameters": {
+          "stuck_value": 20.432159423828125
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 18,
+        "end_time": 41,
+        "parameters": {
+          "bias": -10.53573380375176
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 145,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 146,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 0,
+        "end_time": 24,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 30,
+        "end_time": 52,
+        "parameters": {
+          "bias": -9.999673739583983
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 147,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 148,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 5,
+        "end_time": 34,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "DRIFT",
+        "start_time": 12,
+        "end_time": 40,
+        "parameters": {
+          "drift_rate": 0.35165379022729437
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 149,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 15,
+        "end_time": 38,
+        "parameters": {
+          "noise_multiplier": 5.961662925249767
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 25,
+        "end_time": 40,
+        "parameters": {
+          "drift_rate": 0.4257587226723827
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 150,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 28,
+        "end_time": 51,
+        "parameters": {
+          "noise_multiplier": 3.226100724990853
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 25,
+        "end_time": 54,
+        "parameters": {
+          "noise_multiplier": 6.924536648374147
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 151,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 152,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 3,
+        "end_time": 29,
+        "parameters": {
+          "bias": -11.470105901943242
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 20,
+        "end_time": 46,
+        "parameters": {
+          "drift_rate": -0.43615669375609467
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 153,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "DRIFT",
+        "start_time": 5,
+        "end_time": 30,
+        "parameters": {
+          "drift_rate": 0.26598210499402897
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 36,
+        "end_time": 58,
+        "parameters": {
+          "noise_multiplier": 9.185531999277131
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 154,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 33,
+        "end_time": 50,
+        "parameters": {
+          "drift_rate": 0.449655174185949
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "BIAS",
+        "start_time": 11,
+        "end_time": 36,
+        "parameters": {
+          "bias": -14.903382882821273
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 155,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 27,
+        "end_time": 47,
+        "parameters": {
+          "bias": 8.586847087262704
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 8,
+        "end_time": 27,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 156,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 35,
+        "end_time": 58,
+        "parameters": {
+          "bias": -9.352019523158903
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 31,
+        "end_time": 47,
+        "parameters": {
+          "drift_rate": -0.49572101556149406
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 157,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 17,
+        "end_time": 35,
+        "parameters": {
+          "bias": 13.379467637428483
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 24,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 9.471659118964078
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 158,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 27,
+        "end_time": 56,
+        "parameters": {
+          "stuck_value": 46.94878387451172
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 11,
+        "end_time": 27,
+        "parameters": {
+          "noise_multiplier": 7.018401920514433
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 159,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 29,
+        "end_time": 58,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 11,
+        "end_time": 30,
+        "parameters": {
+          "stuck_value": 31.231130599975586
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 160,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 12,
+        "end_time": 36,
+        "parameters": {
+          "drift_rate": -0.4395840610594758
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "SPIKE",
+        "start_time": 8,
+        "end_time": 24,
+        "parameters": {
+          "num_spikes": 6
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 161,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 0,
+        "end_time": 21,
+        "parameters": {
+          "bias": 9.542763662650076
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 32,
+        "end_time": 60,
+        "parameters": {
+          "noise_multiplier": 8.734484696627618
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 162,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 4,
+        "end_time": 20,
+        "parameters": {
+          "noise_multiplier": 3.654213402601365
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 14,
+        "end_time": 38,
+        "parameters": {
+          "drift_rate": 0.15699959010058798
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 163,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 164,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 10,
+        "end_time": 33,
+        "parameters": {
+          "bias": -12.60120300522567
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 17,
+        "end_time": 41,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 165,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 10,
+        "end_time": 28,
+        "parameters": {
+          "stuck_value": 21.733346939086914
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 19,
+        "end_time": 35,
+        "parameters": {
+          "noise_multiplier": 9.366816414206866
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 166,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 167,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 40,
+        "end_time": 59,
+        "parameters": {
+          "drift_rate": 0.4221066976622111
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 28,
+        "end_time": 55,
+        "parameters": {
+          "stuck_value": 34.86149215698242
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 168,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 0,
+        "end_time": 19,
+        "parameters": {
+          "stuck_value": 51.290061950683594
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 25,
+        "end_time": 53,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 169,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 14,
+        "end_time": 37,
+        "parameters": {
+          "drift_rate": -0.1270450710863662
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 19,
+        "end_time": 44,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 170,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 20,
+        "end_time": 47,
+        "parameters": {
+          "drift_rate": -0.3920764118777815
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 15,
+        "end_time": 34,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 171,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 0,
+        "end_time": 16,
+        "parameters": {
+          "num_spikes": 7
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 9,
+        "end_time": 28,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 172,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 173,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 26,
+        "end_time": 42,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 20,
+        "end_time": 45,
+        "parameters": {
+          "stuck_value": 39885.21484375
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 174,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 3,
+        "end_time": 26,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 24,
+        "end_time": 44,
+        "parameters": {
+          "noise_multiplier": 8.183182363731895
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 175,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 5,
+        "end_time": 21,
+        "parameters": {
+          "stuck_value": 34.77021408081055
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 10,
+        "end_time": 30,
+        "parameters": {
+          "bias": 8.874136308698498
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 176,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 19,
+        "end_time": 34,
+        "parameters": {
+          "stuck_value": 30.708118438720703
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 20,
+        "end_time": 38,
+        "parameters": {
+          "stuck_value": 52.23799133300781
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 177,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 178,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 17,
+        "end_time": 42,
+        "parameters": {
+          "stuck_value": 68.59661102294922
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 12,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 7.158335229518877
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 179,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 25,
+        "end_time": 47,
+        "parameters": {
+          "drift_rate": -0.37586197443003466
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 24,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 3.89450533223191
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 180,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 42,
+        "end_time": 59,
+        "parameters": {
+          "drift_rate": 0.33505071519755436
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 19,
+        "end_time": 38,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 181,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 25,
+        "end_time": 54,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 44,
+        "parameters": {
+          "stuck_value": 21.642641067504883
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 182,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 4,
+        "end_time": 29,
+        "parameters": {
+          "noise_multiplier": 7.981467905871429
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "NOISE",
+        "start_time": 35,
+        "end_time": 60,
+        "parameters": {
+          "noise_multiplier": 3.768082435379098
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 183,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 0,
+        "end_time": 24,
+        "parameters": {
+          "bias": 10.912326250964234
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 11,
+        "end_time": 27,
+        "parameters": {
+          "num_spikes": 9
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 184,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 20,
+        "end_time": 49,
+        "parameters": {
+          "bias": 6.338922598094295
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 38,
+        "end_time": 54,
+        "parameters": {
+          "bias": 11.93963958054223
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 185,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 5,
+        "end_time": 32,
+        "parameters": {
+          "num_spikes": 8
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 44,
+        "parameters": {
+          "stuck_value": 41.9361686706543
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 186,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 22,
+        "end_time": 46,
+        "parameters": {
+          "bias": 6.794906796762769
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 41,
+        "end_time": 58,
+        "parameters": {
+          "noise_multiplier": 4.3319832995588055
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 187,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 14,
+        "end_time": 42,
+        "parameters": {
+          "stuck_value": 31.777748107910156
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 2,
+        "end_time": 18,
+        "parameters": {
+          "stuck_value": 30.39632797241211
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 188,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 28,
+        "end_time": 45,
+        "parameters": {
+          "num_spikes": 6
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 14,
+        "end_time": 35,
+        "parameters": {
+          "bias": -5.1942744093486315
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 189,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 38,
+        "end_time": 58,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 1,
+        "end_time": 21,
+        "parameters": {
+          "stuck_value": 40.32765579223633
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 190,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 25,
+        "end_time": 50,
+        "parameters": {
+          "num_spikes": 8
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 3,
+        "end_time": 24,
+        "parameters": {
+          "stuck_value": 27.24367332458496
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 191,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 34,
+        "end_time": 60,
+        "parameters": {
+          "stuck_value": 27.351285934448242
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "DRIFT",
+        "start_time": 14,
+        "end_time": 29,
+        "parameters": {
+          "drift_rate": -0.19952706317071145
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 192,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 30,
+        "end_time": 52,
+        "parameters": {
+          "bias": -6.964797790326993
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 22,
+        "end_time": 49,
+        "parameters": {
+          "stuck_value": 27.477502822875977
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 193,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 4,
+        "end_time": 21,
+        "parameters": {
+          "noise_multiplier": 6.499790883497974
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 6,
+        "end_time": 33,
+        "parameters": {
+          "drift_rate": 0.14986649240508934
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 194,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 28,
+        "end_time": 53,
+        "parameters": {
+          "stuck_value": 24.977947235107422
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 14,
+        "end_time": 42,
+        "parameters": {
+          "bias": -13.491409322929584
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 195,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 23,
+        "end_time": 47,
+        "parameters": {
+          "bias": 11.277869202195053
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 26,
+        "end_time": 50,
+        "parameters": {
+          "noise_multiplier": 3.5150397634360515
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 196,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 1,
+        "end_time": 26,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 20,
+        "end_time": 43,
+        "parameters": {
+          "drift_rate": -0.19391420524832906
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 197,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 21,
+        "end_time": 48,
+        "parameters": {
+          "bias": -9.485045428763295
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 18,
+        "end_time": 36,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 198,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 199,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 32,
+        "end_time": 57,
+        "parameters": {
+          "noise_multiplier": 3.840250638360869
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 34,
+        "end_time": 56,
+        "parameters": {
+          "stuck_value": 54.6654167175293
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 200,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 201,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 33,
+        "end_time": 57,
+        "parameters": {
+          "noise_multiplier": 5.228112193654512
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 2,
+        "end_time": 24,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 202,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 10,
+        "end_time": 25,
+        "parameters": {
+          "drift_rate": 0.3862294798494178
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 22,
+        "end_time": 45,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 203,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 6,
+        "end_time": 35,
+        "parameters": {
+          "drift_rate": 0.15272459709415448
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 10,
+        "end_time": 28,
+        "parameters": {
+          "stuck_value": 23.334148406982422
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 204,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 17,
+        "end_time": 34,
+        "parameters": {
+          "stuck_value": 28975.439453125
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 4,
+        "end_time": 28,
+        "parameters": {
+          "bias": -10.684465035916286
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 205,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 206,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 23,
+        "end_time": 40,
+        "parameters": {
+          "bias": 10.842686948899232
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 1,
+        "end_time": 18,
+        "parameters": {
+          "bias": -12.18339293544248
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 207,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 24,
+        "end_time": 51,
+        "parameters": {
+          "stuck_value": 43.29331970214844
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "STUCK_AT",
+        "start_time": 38,
+        "end_time": 56,
+        "parameters": {
+          "stuck_value": 58.953514099121094
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 208,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "SPIKE",
+        "start_time": 23,
+        "end_time": 42,
+        "parameters": {
+          "num_spikes": 9
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 12,
+        "end_time": 37,
+        "parameters": {
+          "stuck_value": 30.244483947753906
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 209,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 5,
+        "end_time": 32,
+        "parameters": {
+          "stuck_value": 74.11039733886719
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 6,
+        "end_time": 21,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 210,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 15,
+        "end_time": 35,
+        "parameters": {
+          "noise_multiplier": 3.797766786730356
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 21,
+        "end_time": 41,
+        "parameters": {
+          "stuck_value": 50.225433349609375
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 211,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 212,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 2,
+        "end_time": 29,
+        "parameters": {
+          "noise_multiplier": 7.709640505729598
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 11,
+        "end_time": 33,
+        "parameters": {
+          "num_spikes": 6
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 213,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 214,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 11,
+        "end_time": 36,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 36,
+        "end_time": 59,
+        "parameters": {
+          "noise_multiplier": 8.308229680702938
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 215,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 16,
+        "end_time": 40,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 0,
+        "end_time": 26,
+        "parameters": {
+          "bias": 12.121426362749224
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 216,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 7,
+        "end_time": 34,
+        "parameters": {
+          "stuck_value": 48.85716247558594
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 6,
+        "end_time": 23,
+        "parameters": {
+          "num_spikes": 7
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 217,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 2,
+        "end_time": 26,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 12,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 7.063928604110065
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 218,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 29,
+        "end_time": 49,
+        "parameters": {
+          "drift_rate": 0.10674132244156116
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 14,
+        "end_time": 42,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 219,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 34,
+        "end_time": 60,
+        "parameters": {
+          "num_spikes": 4
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 19,
+        "end_time": 40,
+        "parameters": {
+          "num_spikes": 5
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 220,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 221,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 4,
+        "end_time": 29,
+        "parameters": {
+          "num_spikes": 5
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 17,
+        "end_time": 33,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 222,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 20,
+        "end_time": 48,
+        "parameters": {
+          "noise_multiplier": 6.329640423799045
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "SPIKE",
+        "start_time": 31,
+        "end_time": 51,
+        "parameters": {
+          "num_spikes": 5
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 223,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 4,
+        "end_time": 22,
+        "parameters": {
+          "bias": 9.448158225650443
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 31,
+        "end_time": 55,
+        "parameters": {
+          "drift_rate": 0.15773798352404458
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 224,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 11,
+        "end_time": 31,
+        "parameters": {
+          "num_spikes": 9
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 13,
+        "end_time": 30,
+        "parameters": {
+          "drift_rate": 0.3375050429061863
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 225,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "STUCK_AT",
+        "start_time": 18,
+        "end_time": 36,
+        "parameters": {
+          "stuck_value": 75.58818054199219
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 23,
+        "end_time": 46,
+        "parameters": {
+          "drift_rate": 0.415231194131399
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 226,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 14,
+        "end_time": 42,
+        "parameters": {
+          "noise_multiplier": 5.383110919526539
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 33,
+        "end_time": 49,
+        "parameters": {
+          "drift_rate": 0.3884611400958671
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 227,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 12,
+        "end_time": 32,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 1,
+        "end_time": 24,
+        "parameters": {
+          "noise_multiplier": 6.260170538303522
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 228,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 8,
+        "end_time": 27,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 33,
+        "end_time": 57,
+        "parameters": {
+          "stuck_value": 59.74333953857422
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 229,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 2,
+        "end_time": 28,
+        "parameters": {
+          "num_spikes": 7
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 28,
+        "end_time": 52,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 230,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 39,
+        "end_time": 59,
+        "parameters": {
+          "num_spikes": 9
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 10,
+        "end_time": 30,
+        "parameters": {
+          "noise_multiplier": 9.205271067820185
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 231,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 30,
+        "end_time": 50,
+        "parameters": {
+          "stuck_value": 67.65967559814453
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 6,
+        "end_time": 27,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 232,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 0,
+        "end_time": 24,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 18,
+        "end_time": 41,
+        "parameters": {
+          "num_spikes": 8
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 233,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 234,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 17,
+        "end_time": 35,
+        "parameters": {
+          "bias": -9.778832546213092
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 4,
+        "end_time": 29,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 235,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 44,
+        "end_time": 59,
+        "parameters": {
+          "num_spikes": 10
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 1,
+        "end_time": 16,
+        "parameters": {
+          "drift_rate": -0.3456029623144007
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 236,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 19,
+        "end_time": 37,
+        "parameters": {
+          "bias": -13.759351840434203
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 24,
+        "end_time": 46,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 237,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 3,
+        "end_time": 29,
+        "parameters": {
+          "noise_multiplier": 3.1140398215301666
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 34,
+        "end_time": 56,
+        "parameters": {
+          "stuck_value": 23.040849685668945
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 238,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 21,
+        "end_time": 37,
+        "parameters": {
+          "bias": -9.82382033569198
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 6,
+        "end_time": 29,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 239,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 33,
+        "end_time": 59,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 2,
+        "end_time": 31,
+        "parameters": {
+          "stuck_value": 30.87774085998535
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 240,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "STUCK_AT",
+        "start_time": 7,
+        "end_time": 28,
+        "parameters": {
+          "stuck_value": 39.45267105102539
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 36,
+        "end_time": 56,
+        "parameters": {
+          "stuck_value": 14977.056640625
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 241,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 2,
+        "end_time": 21,
+        "parameters": {
+          "bias": -6.09066652902805
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 4,
+        "end_time": 21,
+        "parameters": {
+          "bias": -7.197337577345293
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 242,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 36,
+        "end_time": 60,
+        "parameters": {
+          "noise_multiplier": 7.962402202653527
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 29,
+        "end_time": 47,
+        "parameters": {
+          "noise_multiplier": 5.51398812384212
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 243,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 244,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 36,
+        "end_time": 59,
+        "parameters": {
+          "num_spikes": 7
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "SPIKE",
+        "start_time": 34,
+        "end_time": 60,
+        "parameters": {
+          "num_spikes": 5
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 245,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "DRIFT",
+        "start_time": 28,
+        "end_time": 43,
+        "parameters": {
+          "drift_rate": -0.31851598837754724
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "SPIKE",
+        "start_time": 7,
+        "end_time": 27,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 246,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 3,
+        "end_time": 30,
+        "parameters": {
+          "noise_multiplier": 5.768929900147129
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "DRIFT",
+        "start_time": 9,
+        "end_time": 30,
+        "parameters": {
+          "drift_rate": 0.17442187990792202
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 247,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 29,
+        "end_time": 48,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "SPIKE",
+        "start_time": 16,
+        "end_time": 39,
+        "parameters": {
+          "num_spikes": 3
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 248,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 31,
+        "end_time": 57,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 8,
+        "end_time": 25,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 249,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 250,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "RANDOM",
+        "start_time": 24,
+        "end_time": 43,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 23,
+        "end_time": 50,
+        "parameters": {
+          "bias": 13.583303941023988
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 251,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 24,
+        "end_time": 50,
+        "parameters": {
+          "num_spikes": 4
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "DRIFT",
+        "start_time": 32,
+        "end_time": 60,
+        "parameters": {
+          "drift_rate": -0.16065337066919377
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 252,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 1,
+        "end_time": 30,
+        "parameters": {
+          "stuck_value": 19.586666107177734
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 31,
+        "end_time": 53,
+        "parameters": {
+          "bias": -11.046761844277409
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 253,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 24,
+        "end_time": 46,
+        "parameters": {
+          "drift_rate": -0.2607160355578445
+        }
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 37,
+        "end_time": 55,
+        "parameters": {
+          "stuck_value": 19876.392578125
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 254,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 1,
+        "end_time": 23,
+        "parameters": {
+          "num_spikes": 4
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 3,
+        "end_time": 28,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 255,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 256,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 36,
+        "end_time": 59,
+        "parameters": {
+          "drift_rate": -0.3675574166219996
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 22,
+        "end_time": 51,
+        "parameters": {
+          "bias": -14.95058421569777
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 257,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 20,
+        "end_time": 47,
+        "parameters": {
+          "drift_rate": 0.22006212306622497
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 29,
+        "end_time": 52,
+        "parameters": {
+          "num_spikes": 4
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 258,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 2,
+        "end_time": 26,
+        "parameters": {
+          "noise_multiplier": 9.633667525463611
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 1,
+        "end_time": 17,
+        "parameters": {
+          "stuck_value": 26.67348861694336
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 259,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 24,
+        "end_time": 46,
+        "parameters": {
+          "noise_multiplier": 9.311585723295854
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "NOISE",
+        "start_time": 14,
+        "end_time": 42,
+        "parameters": {
+          "noise_multiplier": 7.632268829319506
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 260,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 261,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 11,
+        "end_time": 39,
+        "parameters": {
+          "num_spikes": 8
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 47,
+        "parameters": {
+          "stuck_value": 53.79938507080078
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 262,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 28,
+        "end_time": 56,
+        "parameters": {
+          "noise_multiplier": 6.461204688273615
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "SPIKE",
+        "start_time": 30,
+        "end_time": 48,
+        "parameters": {
+          "num_spikes": 10
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 263,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "DRIFT",
+        "start_time": 12,
+        "end_time": 41,
+        "parameters": {
+          "drift_rate": -0.2435846504704037
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "SPIKE",
+        "start_time": 19,
+        "end_time": 38,
+        "parameters": {
+          "num_spikes": 6
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 264,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 32,
+        "end_time": 47,
+        "parameters": {
+          "bias": 14.633609258405777
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 36,
+        "end_time": 59,
+        "parameters": {
+          "bias": -7.31190381706902
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 265,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 35,
+        "end_time": 58,
+        "parameters": {
+          "bias": 13.140560350038037
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 14,
+        "end_time": 29,
+        "parameters": {
+          "stuck_value": 31.24347686767578
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 266,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "STUCK_AT",
+        "start_time": 21,
+        "end_time": 43,
+        "parameters": {
+          "stuck_value": 42176.90234375
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 19,
+        "end_time": 43,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 267,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "STUCK_AT",
+        "start_time": 32,
+        "end_time": 56,
+        "parameters": {
+          "stuck_value": 47.208839416503906
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 10,
+        "end_time": 38,
+        "parameters": {
+          "stuck_value": 42.21485137939453
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 268,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 9,
+        "end_time": 32,
+        "parameters": {
+          "stuck_value": 43.81968688964844
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 16,
+        "end_time": 33,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 269,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 19,
+        "end_time": 42,
+        "parameters": {
+          "noise_multiplier": 9.281352706616655
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "SPIKE",
+        "start_time": 32,
+        "end_time": 49,
+        "parameters": {
+          "num_spikes": 8
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 270,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "BIAS",
+        "start_time": 7,
+        "end_time": 32,
+        "parameters": {
+          "bias": 14.019456056424884
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 29,
+        "end_time": 47,
+        "parameters": {
+          "bias": -12.998866080461891
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 271,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 26,
+        "end_time": 46,
+        "parameters": {
+          "bias": -6.3981576214298865
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 0,
+        "end_time": 20,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 272,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 20,
+        "end_time": 46,
+        "parameters": {
+          "noise_multiplier": 8.469409809246315
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 33,
+        "end_time": 49,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 273,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 29,
+        "end_time": 44,
+        "parameters": {
+          "stuck_value": 45.46403884887695
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 2,
+        "end_time": 18,
+        "parameters": {
+          "bias": 13.151692649672524
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 274,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "SPIKE",
+        "start_time": 1,
+        "end_time": 25,
+        "parameters": {
+          "num_spikes": 6
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "NOISE",
+        "start_time": 35,
+        "end_time": 59,
+        "parameters": {
+          "noise_multiplier": 5.1664087114750705
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 275,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 11,
+        "end_time": 30,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "STUCK_AT",
+        "start_time": 34,
+        "end_time": 51,
+        "parameters": {
+          "stuck_value": 17.3228759765625
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 276,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 7,
+        "end_time": 23,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "NOISE",
+        "start_time": 15,
+        "end_time": 32,
+        "parameters": {
+          "noise_multiplier": 7.002273328239664
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 277,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 9,
+        "end_time": 27,
+        "parameters": {
+          "bias": -13.161075143940403
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "BIAS",
+        "start_time": 25,
+        "end_time": 51,
+        "parameters": {
+          "bias": 10.312283047893786
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 278,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "NOISE",
+        "start_time": 28,
+        "end_time": 44,
+        "parameters": {
+          "noise_multiplier": 4.602299091833663
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 7,
+        "end_time": 23,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 279,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 280,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "NOISE",
+        "start_time": 10,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 5.113121628517872
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "STUCK_AT",
+        "start_time": 16,
+        "end_time": 45,
+        "parameters": {
+          "stuck_value": 47.82090377807617
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 281,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "STUCK_AT",
+        "start_time": 2,
+        "end_time": 18,
+        "parameters": {
+          "stuck_value": 30.534242630004883
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 8,
+        "end_time": 32,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 282,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 283,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "BIAS",
+        "start_time": 28,
+        "end_time": 56,
+        "parameters": {
+          "bias": -6.673094070177749
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "BIAS",
+        "start_time": 27,
+        "end_time": 55,
+        "parameters": {
+          "bias": -7.754200617845793
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 284,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 27,
+        "end_time": 43,
+        "parameters": {
+          "drift_rate": 0.430958484794268
+        }
+      },
+      {
+        "sensor_id": "temp_1",
+        "sensor_idx": 0,
+        "fault_type": "RANDOM",
+        "start_time": 38,
+        "end_time": 53,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 285,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "DRIFT",
+        "start_time": 28,
+        "end_time": 48,
+        "parameters": {
+          "drift_rate": -0.2295453306497376
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 34,
+        "end_time": 60,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 286,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "BIAS",
+        "start_time": 19,
+        "end_time": 46,
+        "parameters": {
+          "bias": -7.872554598915935
+        }
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 11,
+        "end_time": 36,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 287,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "RANDOM",
+        "start_time": 7,
+        "end_time": 32,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "STUCK_AT",
+        "start_time": 11,
+        "end_time": 27,
+        "parameters": {
+          "stuck_value": 50.07349395751953
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 288,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 289,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "DRIFT",
+        "start_time": 37,
+        "end_time": 56,
+        "parameters": {
+          "drift_rate": -0.4484341861583291
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "DRIFT",
+        "start_time": 25,
+        "end_time": 52,
+        "parameters": {
+          "drift_rate": -0.19070172490440662
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 290,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "light",
+        "sensor_idx": 6,
+        "fault_type": "DRIFT",
+        "start_time": 23,
+        "end_time": 47,
+        "parameters": {
+          "drift_rate": 0.2576655847484193
+        }
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "NOISE",
+        "start_time": 24,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 5.213184934444137
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 291,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 22,
+        "end_time": 51,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "BIAS",
+        "start_time": 9,
+        "end_time": 28,
+        "parameters": {
+          "bias": -9.809575530796044
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 292,
+    "fault_count": 0,
+    "faults": []
+  },
+  {
+    "sample_index": 293,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "NOISE",
+        "start_time": 12,
+        "end_time": 39,
+        "parameters": {
+          "noise_multiplier": 4.71742622262453
+        }
+      },
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "RANDOM",
+        "start_time": 26,
+        "end_time": 52,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 294,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "BIAS",
+        "start_time": 40,
+        "end_time": 58,
+        "parameters": {
+          "bias": -8.972827093311619
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 4,
+        "end_time": 23,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 295,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "RANDOM",
+        "start_time": 4,
+        "end_time": 20,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "soil_1",
+        "sensor_idx": 4,
+        "fault_type": "DRIFT",
+        "start_time": 0,
+        "end_time": 26,
+        "parameters": {
+          "drift_rate": 0.24144218134416928
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 296,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "RANDOM",
+        "start_time": 5,
+        "end_time": 31,
+        "parameters": {}
+      },
+      {
+        "sensor_id": "humidity_2",
+        "sensor_idx": 3,
+        "fault_type": "RANDOM",
+        "start_time": 5,
+        "end_time": 23,
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "sample_index": 297,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 21,
+        "end_time": 47,
+        "parameters": {
+          "num_spikes": 10
+        }
+      },
+      {
+        "sensor_id": "temp_2",
+        "sensor_idx": 2,
+        "fault_type": "STUCK_AT",
+        "start_time": 5,
+        "end_time": 32,
+        "parameters": {
+          "stuck_value": 28.29338264465332
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 298,
+    "fault_count": 2,
+    "faults": [
+      {
+        "sensor_id": "humidity_1",
+        "sensor_idx": 1,
+        "fault_type": "SPIKE",
+        "start_time": 17,
+        "end_time": 42,
+        "parameters": {
+          "num_spikes": 4
+        }
+      },
+      {
+        "sensor_id": "soil_2",
+        "sensor_idx": 5,
+        "fault_type": "STUCK_AT",
+        "start_time": 0,
+        "end_time": 16,
+        "parameters": {
+          "stuck_value": 56.3087043762207
+        }
+      }
+    ]
+  },
+  {
+    "sample_index": 299,
+    "fault_count": 0,
+    "faults": []
+  }
+]

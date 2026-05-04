@@ -1,0 +1,5 @@
+2026-04-13 01:50:29,894 | INFO | Trainer initialized | {"device": "cpu", "num_sensors": 7, "run_name": "simulated_run_20260413_015029", "window_size": 60}
+2026-04-13 01:50:29,894 | INFO | Training started | {"num_epochs": 1, "patience": 1}
+2026-04-13 01:50:58,492 | INFO | Epoch completed | {"epoch": 1, "epoch_time_sec": 28.59699010848999, "f1": 0.36601841380624744, "mae": 1146.201171875, "train_loss": 0.9345008084114562, "val_loss": 0.705992978811264}
+2026-04-13 01:50:58,495 | INFO | New best model | {"best_val_loss": 0.705992978811264, "epoch": 1}
+2026-04-13 01:50:58,496 | INFO | Best model restored | {"best_val_loss": 0.705992978811264}

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+<style>text{font-family:Arial,sans-serif;font-size:12px;fill:#222} .title{font-size:16px;font-weight:bold} .axis{stroke:#555;stroke-width:1} .grid{stroke:#ddd;stroke-width:1} .bar{fill:#4c78a8} .bar2{fill:#f58518} .cellText{font-size:11px;fill:#111}</style>
+<text x="350.0" y="28" text-anchor="middle" class="title">Sensor Correlation Heatmap</text>
+<text x="130" y="177.14" text-anchor="end">temp_1</text>
+<text x="177.14" y="124" text-anchor="middle">temp_1</text>
+<rect x="140.00" y="140.00" width="74.29" height="74.29" fill="rgb(0,120,255)" stroke="#fff"/>
+<text x="177.14" y="181.14" text-anchor="middle" class="cellText">1.00</text>
+<rect x="214.29" y="140.00" width="74.29" height="74.29" fill="rgb(132,120,122)" stroke="#fff"/>
+<text x="251.43" y="181.14" text-anchor="middle" class="cellText">-0.04</text>
+<rect x="288.57" y="140.00" width="74.29" height="74.29" fill="rgb(73,120,181)" stroke="#fff"/>
+<text x="325.71" y="181.14" text-anchor="middle" class="cellText">0.42</text>
+<rect x="362.86" y="140.00" width="74.29" height="74.29" fill="rgb(132,120,122)" stroke="#fff"/>
+<text x="400.00" y="181.14" text-anchor="middle" class="cellText">-0.04</text>
+<rect x="437.14" y="140.00" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="474.29" y="181.14" text-anchor="middle" class="cellText">-0.00</text>
+<rect x="511.43" y="140.00" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="548.57" y="181.14" text-anchor="middle" class="cellText">-0.00</text>
+<rect x="585.71" y="140.00" width="74.29" height="74.29" fill="rgb(110,120,144)" stroke="#fff"/>
+<text x="622.86" y="181.14" text-anchor="middle" class="cellText">0.13</text>
+<text x="130" y="251.43" text-anchor="end">humidity_1</text>
+<text x="251.43" y="124" text-anchor="middle">humidity_1</text>
+<rect x="140.00" y="214.29" width="74.29" height="74.29" fill="rgb(132,120,122)" stroke="#fff"/>
+<text x="177.14" y="255.43" text-anchor="middle" class="cellText">-0.04</text>
+<rect x="214.29" y="214.29" width="74.29" height="74.29" fill="rgb(0,120,255)" stroke="#fff"/>
+<text x="251.43" y="255.43" text-anchor="middle" class="cellText">1.00</text>
+<rect x="288.57" y="214.29" width="74.29" height="74.29" fill="rgb(131,120,123)" stroke="#fff"/>
+<text x="325.71" y="255.43" text-anchor="middle" class="cellText">-0.03</text>
+<rect x="362.86" y="214.29" width="74.29" height="74.29" fill="rgb(22,120,232)" stroke="#fff"/>
+<text x="400.00" y="255.43" text-anchor="middle" class="cellText">0.82</text>
+<rect x="437.14" y="214.29" width="74.29" height="74.29" fill="rgb(125,120,129)" stroke="#fff"/>
+<text x="474.29" y="255.43" text-anchor="middle" class="cellText">0.01</text>
+<rect x="511.43" y="214.29" width="74.29" height="74.29" fill="rgb(125,120,129)" stroke="#fff"/>
+<text x="548.57" y="255.43" text-anchor="middle" class="cellText">0.01</text>
+<rect x="585.71" y="214.29" width="74.29" height="74.29" fill="rgb(135,120,119)" stroke="#fff"/>
+<text x="622.86" y="255.43" text-anchor="middle" class="cellText">-0.06</text>
+<text x="130" y="325.71" text-anchor="end">temp_2</text>
+<text x="325.71" y="124" text-anchor="middle">temp_2</text>
+<rect x="140.00" y="288.57" width="74.29" height="74.29" fill="rgb(73,120,181)" stroke="#fff"/>
+<text x="177.14" y="329.71" text-anchor="middle" class="cellText">0.42</text>
+<rect x="214.29" y="288.57" width="74.29" height="74.29" fill="rgb(131,120,123)" stroke="#fff"/>
+<text x="251.43" y="329.71" text-anchor="middle" class="cellText">-0.03</text>
+<rect x="288.57" y="288.57" width="74.29" height="74.29" fill="rgb(0,120,255)" stroke="#fff"/>
+<text x="325.71" y="329.71" text-anchor="middle" class="cellText">1.00</text>
+<rect x="362.86" y="288.57" width="74.29" height="74.29" fill="rgb(131,120,123)" stroke="#fff"/>
+<text x="400.00" y="329.71" text-anchor="middle" class="cellText">-0.03</text>
+<rect x="437.14" y="288.57" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="474.29" y="329.71" text-anchor="middle" class="cellText">-0.00</text>
+<rect x="511.43" y="288.57" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="548.57" y="329.71" text-anchor="middle" class="cellText">-0.00</text>
+<rect x="585.71" y="288.57" width="74.29" height="74.29" fill="rgb(111,120,143)" stroke="#fff"/>
+<text x="622.86" y="329.71" text-anchor="middle" class="cellText">0.13</text>
+<text x="130" y="400.00" text-anchor="end">humidity_2</text>
+<text x="400.00" y="124" text-anchor="middle">humidity_2</text>
+<rect x="140.00" y="362.86" width="74.29" height="74.29" fill="rgb(132,120,122)" stroke="#fff"/>
+<text x="177.14" y="404.00" text-anchor="middle" class="cellText">-0.04</text>
+<rect x="214.29" y="362.86" width="74.29" height="74.29" fill="rgb(22,120,232)" stroke="#fff"/>
+<text x="251.43" y="404.00" text-anchor="middle" class="cellText">0.82</text>
+<rect x="288.57" y="362.86" width="74.29" height="74.29" fill="rgb(131,120,123)" stroke="#fff"/>
+<text x="325.71" y="404.00" text-anchor="middle" class="cellText">-0.03</text>
+<rect x="362.86" y="362.86" width="74.29" height="74.29" fill="rgb(0,120,255)" stroke="#fff"/>
+<text x="400.00" y="404.00" text-anchor="middle" class="cellText">1.00</text>
+<rect x="437.14" y="362.86" width="74.29" height="74.29" fill="rgb(126,120,128)" stroke="#fff"/>
+<text x="474.29" y="404.00" text-anchor="middle" class="cellText">0.01</text>
+<rect x="511.43" y="362.86" width="74.29" height="74.29" fill="rgb(126,120,128)" stroke="#fff"/>
+<text x="548.57" y="404.00" text-anchor="middle" class="cellText">0.01</text>
+<rect x="585.71" y="362.86" width="74.29" height="74.29" fill="rgb(134,120,120)" stroke="#fff"/>
+<text x="622.86" y="404.00" text-anchor="middle" class="cellText">-0.06</text>
+<text x="130" y="474.29" text-anchor="end">soil_1</text>
+<text x="474.29" y="124" text-anchor="middle">soil_1</text>
+<rect x="140.00" y="437.14" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="177.14" y="478.29" text-anchor="middle" class="cellText">-0.00</text>
+<rect x="214.29" y="437.14" width="74.29" height="74.29" fill="rgb(125,120,129)" stroke="#fff"/>
+<text x="251.43" y="478.29" text-anchor="middle" class="cellText">0.01</text>
+<rect x="288.57" y="437.14" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="325.71" y="478.29" text-anchor="middle" class="cellText">-0.00</text>
+<rect x="362.86" y="437.14" width="74.29" height="74.29" fill="rgb(126,120,128)" stroke="#fff"/>
+<text x="400.00" y="478.29" text-anchor="middle" class="cellText">0.01</text>
+<rect x="437.14" y="437.14" width="74.29" height="74.29" fill="rgb(0,120,255)" stroke="#fff"/>
+<text x="474.29" y="478.29" text-anchor="middle" class="cellText">1.00</text>
+<rect x="511.43" y="437.14" width="74.29" height="74.29" fill="rgb(40,120,214)" stroke="#fff"/>
+<text x="548.57" y="478.29" text-anchor="middle" class="cellText">0.68</text>
+<rect x="585.71" y="437.14" width="74.29" height="74.29" fill="rgb(126,120,128)" stroke="#fff"/>
+<text x="622.86" y="478.29" text-anchor="middle" class="cellText">0.01</text>
+<text x="130" y="548.57" text-anchor="end">soil_2</text>
+<text x="548.57" y="124" text-anchor="middle">soil_2</text>
+<rect x="140.00" y="511.43" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="177.14" y="552.57" text-anchor="middle" class="cellText">-0.00</text>
+<rect x="214.29" y="511.43" width="74.29" height="74.29" fill="rgb(125,120,129)" stroke="#fff"/>
+<text x="251.43" y="552.57" text-anchor="middle" class="cellText">0.01</text>
+<rect x="288.57" y="511.43" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="325.71" y="552.57" text-anchor="middle" class="cellText">-0.00</text>
+<rect x="362.86" y="511.43" width="74.29" height="74.29" fill="rgb(126,120,128)" stroke="#fff"/>
+<text x="400.00" y="552.57" text-anchor="middle" class="cellText">0.01</text>
+<rect x="437.14" y="511.43" width="74.29" height="74.29" fill="rgb(40,120,214)" stroke="#fff"/>
+<text x="474.29" y="552.57" text-anchor="middle" class="cellText">0.68</text>
+<rect x="511.43" y="511.43" width="74.29" height="74.29" fill="rgb(0,120,254)" stroke="#fff"/>
+<text x="548.57" y="552.57" text-anchor="middle" class="cellText">1.00</text>
+<rect x="585.71" y="511.43" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="622.86" y="552.57" text-anchor="middle" class="cellText">0.00</text>
+<text x="130" y="622.86" text-anchor="end">light</text>
+<text x="622.86" y="124" text-anchor="middle">light</text>
+<rect x="140.00" y="585.71" width="74.29" height="74.29" fill="rgb(110,120,144)" stroke="#fff"/>
+<text x="177.14" y="626.86" text-anchor="middle" class="cellText">0.13</text>
+<rect x="214.29" y="585.71" width="74.29" height="74.29" fill="rgb(135,120,119)" stroke="#fff"/>
+<text x="251.43" y="626.86" text-anchor="middle" class="cellText">-0.06</text>
+<rect x="288.57" y="585.71" width="74.29" height="74.29" fill="rgb(111,120,143)" stroke="#fff"/>
+<text x="325.71" y="626.86" text-anchor="middle" class="cellText">0.13</text>
+<rect x="362.86" y="585.71" width="74.29" height="74.29" fill="rgb(134,120,120)" stroke="#fff"/>
+<text x="400.00" y="626.86" text-anchor="middle" class="cellText">-0.06</text>
+<rect x="437.14" y="585.71" width="74.29" height="74.29" fill="rgb(126,120,128)" stroke="#fff"/>
+<text x="474.29" y="626.86" text-anchor="middle" class="cellText">0.01</text>
+<rect x="511.43" y="585.71" width="74.29" height="74.29" fill="rgb(127,120,127)" stroke="#fff"/>
+<text x="548.57" y="626.86" text-anchor="middle" class="cellText">0.00</text>
+<rect x="585.71" y="585.71" width="74.29" height="74.29" fill="rgb(0,120,255)" stroke="#fff"/>
+<text x="622.86" y="626.86" text-anchor="middle" class="cellText">1.00</text>
+</svg>

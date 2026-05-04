@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+<style>text{font-family:Arial,sans-serif;font-size:12px;fill:#222} .title{font-size:16px;font-weight:bold} .axis{stroke:#555;stroke-width:1} .grid{stroke:#ddd;stroke-width:1} .bar{fill:#4c78a8} .bar2{fill:#f58518} .cellText{font-size:11px;fill:#111}</style>
+<text x="550.0" y="28" text-anchor="middle" class="title">Sensor Value Distributions</text>
+<text x="315.0" y="64.0" text-anchor="middle">temp_1</text>
+<line x1="90.0" y1="175.0" x2="560.0" y2="175.0" class="axis"/>
+<line x1="90.0" y1="75.0" x2="90.0" y2="175.0" class="axis"/>
+<rect x="90.00" y="174.87" width="18.17" height="0.13" class="bar"/>
+<rect x="109.17" y="174.85" width="18.17" height="0.15" class="bar"/>
+<rect x="128.33" y="174.84" width="18.17" height="0.16" class="bar"/>
+<rect x="147.50" y="174.85" width="18.17" height="0.15" class="bar"/>
+<rect x="166.67" y="174.83" width="18.17" height="0.17" class="bar"/>
+<rect x="185.83" y="174.85" width="18.17" height="0.15" class="bar"/>
+<rect x="205.00" y="174.86" width="18.17" height="0.14" class="bar"/>
+<rect x="224.17" y="174.82" width="18.17" height="0.18" class="bar"/>
+<rect x="243.33" y="174.75" width="18.17" height="0.25" class="bar"/>
+<rect x="262.50" y="174.46" width="18.17" height="0.54" class="bar"/>
+<rect x="281.67" y="172.76" width="18.17" height="2.24" class="bar"/>
+<rect x="300.83" y="131.43" width="18.17" height="43.57" class="bar"/>
+<rect x="320.00" y="80.00" width="18.17" height="95.00" class="bar"/>
+<rect x="339.17" y="96.95" width="18.17" height="78.05" class="bar"/>
+<rect x="358.33" y="155.32" width="18.17" height="19.68" class="bar"/>
+<rect x="377.50" y="174.04" width="18.17" height="0.96" class="bar"/>
+<rect x="396.67" y="174.59" width="18.17" height="0.41" class="bar"/>
+<rect x="415.83" y="174.79" width="18.17" height="0.21" class="bar"/>
+<rect x="435.00" y="174.83" width="18.17" height="0.17" class="bar"/>
+<rect x="454.17" y="174.85" width="18.17" height="0.15" class="bar"/>
+<rect x="473.33" y="174.85" width="18.17" height="0.15" class="bar"/>
+<rect x="492.50" y="174.87" width="18.17" height="0.13" class="bar"/>
+<rect x="511.67" y="174.85" width="18.17" height="0.15" class="bar"/>
+<rect x="530.83" y="174.84" width="18.17" height="0.16" class="bar"/>
+<text x="90.0" y="195.0" text-anchor="start">-40.0</text>
+<text x="560.0" y="195.0" text-anchor="end">80.0</text>
+<text x="94.0" y="85.0" text-anchor="start">max 98503</text>
+<text x="825.0" y="64.0" text-anchor="middle">humidity_1</text>
+<line x1="600.0" y1="175.0" x2="1070.0" y2="175.0" class="axis"/>
+<line x1="600.0" y1="75.0" x2="600.0" y2="175.0" class="axis"/>
+<rect x="600.00" y="174.52" width="18.17" height="0.48" class="bar"/>
+<rect x="619.17" y="174.51" width="18.17" height="0.49" class="bar"/>
+<rect x="638.33" y="174.50" width="18.17" height="0.50" class="bar"/>
+<rect x="657.50" y="174.54" width="18.17" height="0.46" class="bar"/>
+<rect x="676.67" y="174.56" width="18.17" height="0.44" class="bar"/>
+<rect x="695.83" y="174.20" width="18.17" height="0.80" class="bar"/>
+<rect x="715.00" y="173.98" width="18.17" height="1.02" class="bar"/>
+<rect x="734.17" y="169.05" width="18.17" height="5.95" class="bar"/>
+<rect x="753.33" y="130.30" width="18.17" height="44.70" class="bar"/>
+<rect x="772.50" y="93.13" width="18.17" height="81.87" class="bar"/>
+<rect x="791.67" y="89.14" width="18.17" height="85.86" class="bar"/>
+<rect x="810.83" y="89.58" width="18.17" height="85.42" class="bar"/>
+<rect x="830.00" y="86.86" width="18.17" height="88.14" class="bar"/>
+<rect x="849.17" y="83.46" width="18.17" height="91.54" class="bar"/>
+<rect x="868.33" y="80.00" width="18.17" height="95.00" class="bar"/>
+<rect x="887.50" y="98.15" width="18.17" height="76.85" class="bar"/>
+<rect x="906.67" y="150.68" width="18.17" height="24.32" class="bar"/>
+<rect x="925.83" y="172.71" width="18.17" height="2.29" class="bar"/>
+<rect x="945.00" y="174.15" width="18.17" height="0.85" class="bar"/>
+<rect x="964.17" y="174.39" width="18.17" height="0.61" class="bar"/>
+<rect x="983.33" y="174.50" width="18.17" height="0.50" class="bar"/>
+<rect x="1002.50" y="174.79" width="18.17" height="0.21" class="bar"/>
+<rect x="1021.67" y="175.00" width="18.17" height="0.00" class="bar"/>
+<rect x="1040.83" y="174.99" width="18.17" height="0.01" class="bar"/>
+<text x="600.0" y="195.0" text-anchor="start">0.0</text>
+<text x="1070.0" y="195.0" text-anchor="end">112.0</text>
+<text x="604.0" y="85.0" text-anchor="start">max 34780</text>
+<text x="315.0" y="214.0" text-anchor="middle">temp_2</text>
+<line x1="90.0" y1="325.0" x2="560.0" y2="325.0" class="axis"/>
+<line x1="90.0" y1="225.0" x2="90.0" y2="325.0" class="axis"/>
+<rect x="90.00" y="324.83" width="18.17" height="0.17" class="bar"/>
+<rect x="109.17" y="324.84" width="18.17" height="0.16" class="bar"/>
+<rect x="128.33" y="324.84" width="18.17" height="0.16" class="bar"/>
+<rect x="147.50" y="324.84" width="18.17" height="0.16" class="bar"/>
+<rect x="166.67" y="324.85" width="18.17" height="0.15" class="bar"/>
+<rect x="185.83" y="324.85" width="18.17" height="0.15" class="bar"/>
+<rect x="205.00" y="324.82" width="18.17" height="0.18" class="bar"/>
+<rect x="224.17" y="324.83" width="18.17" height="0.17" class="bar"/>
+<rect x="243.33" y="324.74" width="18.17" height="0.26" class="bar"/>
+<rect x="262.50" y="324.18" width="18.17" height="0.82" class="bar"/>
+<rect x="281.67" y="322.56" width="18.17" height="2.44" class="bar"/>
+<rect x="300.83" y="280.96" width="18.17" height="44.04" class="bar"/>
+<rect x="320.00" y="230.00" width="18.17" height="95.00" class="bar"/>
+<rect x="339.17" y="246.39" width="18.17" height="78.61" class="bar"/>
+<rect x="358.33" y="305.31" width="18.17" height="19.69" class="bar"/>
+<rect x="377.50" y="324.37" width="18.17" height="0.63" class="bar"/>
+<rect x="396.67" y="324.62" width="18.17" height="0.38" class="bar"/>
+<rect x="415.83" y="324.84" width="18.17" height="0.16" class="bar"/>
+<rect x="435.00" y="324.81" width="18.17" height="0.19" class="bar"/>
+<rect x="454.17" y="324.85" width="18.17" height="0.15" class="bar"/>
+<rect x="473.33" y="324.85" width="18.17" height="0.15" class="bar"/>
+<rect x="492.50" y="324.83" width="18.17" height="0.17" class="bar"/>
+<rect x="511.67" y="324.83" width="18.17" height="0.17" class="bar"/>
+<rect x="530.83" y="324.84" width="18.17" height="0.16" class="bar"/>
+<text x="90.0" y="345.0" text-anchor="start">-39.9</text>
+<text x="560.0" y="345.0" text-anchor="end">80.0</text>
+<text x="94.0" y="235.0" text-anchor="start">max 97992</text>
+<text x="825.0" y="214.0" text-anchor="middle">humidity_2</text>
+<line x1="600.0" y1="325.0" x2="1070.0" y2="325.0" class="axis"/>
+<line x1="600.0" y1="225.0" x2="600.0" y2="325.0" class="axis"/>
+<rect x="600.00" y="324.51" width="18.17" height="0.49" class="bar"/>
+<rect x="619.17" y="324.51" width="18.17" height="0.49" class="bar"/>
+<rect x="638.33" y="324.53" width="18.17" height="0.47" class="bar"/>
+<rect x="657.50" y="324.46" width="18.17" height="0.54" class="bar"/>
+<rect x="676.67" y="324.50" width="18.17" height="0.50" class="bar"/>
+<rect x="695.83" y="324.18" width="18.17" height="0.82" class="bar"/>
+<rect x="715.00" y="323.66" width="18.17" height="1.34" class="bar"/>
+<rect x="734.17" y="320.03" width="18.17" height="4.97" class="bar"/>
+<rect x="753.33" y="284.55" width="18.17" height="40.45" class="bar"/>
+<rect x="772.50" y="244.04" width="18.17" height="80.96" class="bar"/>
+<rect x="791.67" y="236.66" width="18.17" height="88.34" class="bar"/>
+<rect x="810.83" y="237.92" width="18.17" height="87.08" class="bar"/>
+<rect x="830.00" y="238.88" width="18.17" height="86.12" class="bar"/>
+<rect x="849.17" y="232.74" width="18.17" height="92.26" class="bar"/>
+<rect x="868.33" y="230.00" width="18.17" height="95.00" class="bar"/>
+<rect x="887.50" y="242.93" width="18.17" height="82.07" class="bar"/>
+<rect x="906.67" y="294.41" width="18.17" height="30.59" class="bar"/>
+<rect x="925.83" y="321.80" width="18.17" height="3.20" class="bar"/>
+<rect x="945.00" y="323.87" width="18.17" height="1.13" class="bar"/>
+<rect x="964.17" y="324.23" width="18.17" height="0.77" class="bar"/>
+<rect x="983.33" y="324.46" width="18.17" height="0.54" class="bar"/>
+<rect x="1002.50" y="324.63" width="18.17" height="0.37" class="bar"/>
+<rect x="1021.67" y="325.00" width="18.17" height="0.00" class="bar"/>
+<rect x="1040.83" y="325.00" width="18.17" height="0.00" class="bar"/>
+<text x="600.0" y="345.0" text-anchor="start">0.0</text>
+<text x="1070.0" y="345.0" text-anchor="end">111.1</text>
+<text x="604.0" y="235.0" text-anchor="start">max 34273</text>
+<text x="315.0" y="364.0" text-anchor="middle">soil_1</text>
+<line x1="90.0" y1="475.0" x2="560.0" y2="475.0" class="axis"/>
+<line x1="90.0" y1="375.0" x2="90.0" y2="475.0" class="axis"/>
+<rect x="90.00" y="474.99" width="18.17" height="0.01" class="bar"/>
+<rect x="109.17" y="474.99" width="18.17" height="0.01" class="bar"/>
+<rect x="128.33" y="474.98" width="18.17" height="0.02" class="bar"/>
+<rect x="147.50" y="474.94" width="18.17" height="0.06" class="bar"/>
+<rect x="166.67" y="474.44" width="18.17" height="0.56" class="bar"/>
+<rect x="185.83" y="474.18" width="18.17" height="0.82" class="bar"/>
+<rect x="205.00" y="473.76" width="18.17" height="1.24" class="bar"/>
+<rect x="224.17" y="463.98" width="18.17" height="11.02" class="bar"/>
+<rect x="243.33" y="420.22" width="18.17" height="54.78" class="bar"/>
+<rect x="262.50" y="381.90" width="18.17" height="93.10" class="bar"/>
+<rect x="281.67" y="380.00" width="18.17" height="95.00" class="bar"/>
+<rect x="300.83" y="380.30" width="18.17" height="94.70" class="bar"/>
+<rect x="320.00" y="380.44" width="18.17" height="94.56" class="bar"/>
+<rect x="339.17" y="412.26" width="18.17" height="62.74" class="bar"/>
+<rect x="358.33" y="460.15" width="18.17" height="14.85" class="bar"/>
+<rect x="377.50" y="473.48" width="18.17" height="1.52" class="bar"/>
+<rect x="396.67" y="474.33" width="18.17" height="0.67" class="bar"/>
+<rect x="415.83" y="474.41" width="18.17" height="0.59" class="bar"/>
+<rect x="435.00" y="474.46" width="18.17" height="0.54" class="bar"/>
+<rect x="454.17" y="474.60" width="18.17" height="0.40" class="bar"/>
+<rect x="473.33" y="474.51" width="18.17" height="0.49" class="bar"/>
+<rect x="492.50" y="474.60" width="18.17" height="0.40" class="bar"/>
+<rect x="511.67" y="475.00" width="18.17" height="0.00" class="bar"/>
+<rect x="530.83" y="475.00" width="18.17" height="0.00" class="bar"/>
+<text x="90.0" y="495.0" text-anchor="start">-22.1</text>
+<text x="560.0" y="495.0" text-anchor="end">112.6</text>
+<text x="94.0" y="385.0" text-anchor="start">max 45333</text>
+<text x="825.0" y="364.0" text-anchor="middle">soil_2</text>
+<line x1="600.0" y1="475.0" x2="1070.0" y2="475.0" class="axis"/>
+<line x1="600.0" y1="375.0" x2="600.0" y2="475.0" class="axis"/>
+<rect x="600.00" y="475.00" width="18.17" height="0.00" class="bar"/>
+<rect x="619.17" y="474.99" width="18.17" height="0.01" class="bar"/>
+<rect x="638.33" y="475.00" width="18.17" height="0.00" class="bar"/>
+<rect x="657.50" y="474.99" width="18.17" height="0.01" class="bar"/>
+<rect x="676.67" y="474.98" width="18.17" height="0.02" class="bar"/>
+<rect x="695.83" y="474.69" width="18.17" height="0.31" class="bar"/>
+<rect x="715.00" y="474.32" width="18.17" height="0.68" class="bar"/>
+<rect x="734.17" y="473.81" width="18.17" height="1.19" class="bar"/>
+<rect x="753.33" y="468.93" width="18.17" height="6.07" class="bar"/>
+<rect x="772.50" y="433.09" width="18.17" height="41.91" class="bar"/>
+<rect x="791.67" y="389.76" width="18.17" height="85.24" class="bar"/>
+<rect x="810.83" y="381.45" width="18.17" height="93.55" class="bar"/>
+<rect x="830.00" y="380.00" width="18.17" height="95.00" class="bar"/>
+<rect x="849.17" y="383.03" width="18.17" height="91.97" class="bar"/>
+<rect x="868.33" y="422.22" width="18.17" height="52.78" class="bar"/>
+<rect x="887.50" y="464.19" width="18.17" height="10.81" class="bar"/>
+<rect x="906.67" y="473.61" width="18.17" height="1.39" class="bar"/>
+<rect x="925.83" y="474.28" width="18.17" height="0.72" class="bar"/>
+<rect x="945.00" y="474.48" width="18.17" height="0.52" class="bar"/>
+<rect x="964.17" y="474.49" width="18.17" height="0.51" class="bar"/>
+<rect x="983.33" y="474.53" width="18.17" height="0.47" class="bar"/>
+<rect x="1002.50" y="474.52" width="18.17" height="0.48" class="bar"/>
+<rect x="1021.67" y="474.94" width="18.17" height="0.06" class="bar"/>
+<rect x="1040.83" y="475.00" width="18.17" height="0.00" class="bar"/>
+<text x="600.0" y="495.0" text-anchor="start">-32.2</text>
+<text x="1070.0" y="495.0" text-anchor="end">111.0</text>
+<text x="604.0" y="385.0" text-anchor="start">max 49492</text>
+<text x="315.0" y="514.0" text-anchor="middle">light</text>
+<line x1="90.0" y1="625.0" x2="560.0" y2="625.0" class="axis"/>
+<line x1="90.0" y1="525.0" x2="90.0" y2="625.0" class="axis"/>
+<rect x="90.00" y="624.24" width="18.17" height="0.76" class="bar"/>
+<rect x="109.17" y="616.43" width="18.17" height="8.57" class="bar"/>
+<rect x="128.33" y="580.50" width="18.17" height="44.50" class="bar"/>
+<rect x="147.50" y="572.55" width="18.17" height="52.45" class="bar"/>
+<rect x="166.67" y="567.17" width="18.17" height="57.83" class="bar"/>
+<rect x="185.83" y="555.00" width="18.17" height="70.00" class="bar"/>
+<rect x="205.00" y="550.77" width="18.17" height="74.23" class="bar"/>
+<rect x="224.17" y="539.01" width="18.17" height="85.99" class="bar"/>
+<rect x="243.33" y="535.73" width="18.17" height="89.27" class="bar"/>
+<rect x="262.50" y="534.33" width="18.17" height="90.67" class="bar"/>
+<rect x="281.67" y="533.71" width="18.17" height="91.29" class="bar"/>
+<rect x="300.83" y="530.00" width="18.17" height="95.00" class="bar"/>
+<rect x="320.00" y="533.84" width="18.17" height="91.16" class="bar"/>
+<rect x="339.17" y="536.72" width="18.17" height="88.28" class="bar"/>
+<rect x="358.33" y="549.02" width="18.17" height="75.98" class="bar"/>
+<rect x="377.50" y="583.38" width="18.17" height="41.62" class="bar"/>
+<rect x="396.67" y="587.71" width="18.17" height="37.29" class="bar"/>
+<rect x="415.83" y="594.91" width="18.17" height="30.09" class="bar"/>
+<rect x="435.00" y="601.38" width="18.17" height="23.62" class="bar"/>
+<rect x="454.17" y="611.04" width="18.17" height="13.96" class="bar"/>
+<rect x="473.33" y="623.17" width="18.17" height="1.83" class="bar"/>
+<rect x="492.50" y="624.16" width="18.17" height="0.84" class="bar"/>
+<rect x="511.67" y="624.27" width="18.17" height="0.73" class="bar"/>
+<rect x="530.83" y="624.34" width="18.17" height="0.66" class="bar"/>
+<text x="90.0" y="645.0" text-anchor="start">5.4</text>
+<text x="560.0" y="645.0" text-anchor="end">65517.6</text>
+<text x="94.0" y="535.0" text-anchor="start">max 20521</text>
+</svg>

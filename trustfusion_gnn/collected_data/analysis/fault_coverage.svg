@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+<style>text{font-family:Arial,sans-serif;font-size:12px;fill:#222} .title{font-size:16px;font-weight:bold} .axis{stroke:#555;stroke-width:1} .grid{stroke:#ddd;stroke-width:1} .bar{fill:#4c78a8} .bar2{fill:#f58518} .cellText{font-size:11px;fill:#111}</style>
+<text x="450.0" y="28" text-anchor="middle" class="title">Fault Type Coverage</text>
+<line x1="80" y1="400" x2="880" y2="400" class="axis"/>
+<line x1="80" y1="50" x2="80" y2="400" class="axis"/>
+<rect x="90.00" y="101.53" width="113.33" height="298.47" class="bar2"/>
+<text x="146.67" y="418" text-anchor="middle">BIAS</text>
+<text x="146.67" y="95.53" text-anchor="middle">1109</text>
+<rect x="223.33" y="97.76" width="113.33" height="302.24" class="bar2"/>
+<text x="280.00" y="418" text-anchor="middle">DRIFT</text>
+<text x="280.00" y="91.76" text-anchor="middle">1123</text>
+<rect x="356.67" y="97.22" width="113.33" height="302.78" class="bar2"/>
+<text x="413.33" y="418" text-anchor="middle">NOISE</text>
+<text x="413.33" y="91.22" text-anchor="middle">1125</text>
+<rect x="490.00" y="80.00" width="113.33" height="320.00" class="bar2"/>
+<text x="546.67" y="418" text-anchor="middle">RANDOM</text>
+<text x="546.67" y="74.00" text-anchor="middle">1189</text>
+<rect x="623.33" y="100.45" width="113.33" height="299.55" class="bar2"/>
+<text x="680.00" y="418" text-anchor="middle">SPIKE</text>
+<text x="680.00" y="94.45" text-anchor="middle">1113</text>
+<rect x="756.67" y="100.99" width="113.33" height="299.01" class="bar2"/>
+<text x="813.33" y="418" text-anchor="middle">STUCK_AT</text>
+<text x="813.33" y="94.99" text-anchor="middle">1111</text>
+</svg>

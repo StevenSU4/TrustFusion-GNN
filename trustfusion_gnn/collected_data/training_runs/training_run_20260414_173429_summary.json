@@ -1,0 +1,264 @@
+{
+  "run_name": "training_run_20260414_173429",
+  "overall_reasonable": true,
+  "reasonableness": {
+    "train": {
+      "reasonable": true,
+      "checks": {
+        "has_samples": true,
+        "all_anomaly_types_present": true,
+        "anomaly_density_reasonable": true,
+        "credibility_target_reasonable": true
+      },
+      "summary": {
+        "sample_count": 3000,
+        "num_sensors": 7,
+        "window_size": 60,
+        "feature_dim": 1,
+        "anomalous_sample_count": 2418,
+        "anomalous_sample_ratio": 0.806,
+        "anomaly_point_count": 106730,
+        "anomaly_density": 0.08470635116100311,
+        "avg_credibility_target": 0.9152936339378357,
+        "anomaly_type_counts": {
+          "BIAS": 786,
+          "DRIFT": 817,
+          "NOISE": 809,
+          "RANDOM": 856,
+          "SPIKE": 791,
+          "STUCK_AT": 777
+        },
+        "sensor_statistics": {
+          "temp_1": {
+            "mean": 23.936025619506836,
+            "std": 5.96474552154541,
+            "min": -39.99868392944336,
+            "max": 79.9868392944336,
+            "anomaly_ratio": 0.08095555752515793,
+            "clean_ratio": 0.9190444350242615
+          },
+          "humidity_1": {
+            "mean": 57.708194732666016,
+            "std": 11.282452583312988,
+            "min": 0.0036776065826416016,
+            "max": 111.985107421875,
+            "anomaly_ratio": 0.08410555869340897,
+            "clean_ratio": 0.9158944487571716
+          },
+          "temp_2": {
+            "mean": 23.91759490966797,
+            "std": 6.13358736038208,
+            "min": -39.93418884277344,
+            "max": 79.9660415649414,
+            "anomaly_ratio": 0.08275000005960464,
+            "clean_ratio": 0.9172499775886536
+          },
+          "humidity_2": {
+            "mean": 57.65407943725586,
+            "std": 11.27808666229248,
+            "min": 0.06561875343322754,
+            "max": 111.05484008789062,
+            "anomaly_ratio": 0.08540555834770203,
+            "clean_ratio": 0.9145944118499756
+          },
+          "soil_1": {
+            "mean": 40.17949676513672,
+            "std": 10.340110778808594,
+            "min": -21.729629516601562,
+            "max": 112.58241271972656,
+            "anomaly_ratio": 0.0825277790427208,
+            "clean_ratio": 0.917472243309021
+          },
+          "soil_2": {
+            "mean": 40.29069900512695,
+            "std": 10.299836158752441,
+            "min": -32.21694564819336,
+            "max": 110.9796371459961,
+            "anomaly_ratio": 0.08931666612625122,
+            "clean_ratio": 0.9106833338737488
+          },
+          "light": {
+            "mean": 27509.359375,
+            "std": 11770.603515625,
+            "min": 17.78879165649414,
+            "max": 65517.63671875,
+            "anomaly_ratio": 0.08788333088159561,
+            "clean_ratio": 0.9121166467666626
+          }
+        },
+        "output_statistics": {
+          "temperature": {
+            "mean": 23.96992301940918,
+            "std": 4.121455192565918,
+            "min": 12.7749662399292,
+            "max": 34.96772003173828
+          },
+          "humidity": {
+            "mean": 57.83385467529297,
+            "std": 10.442561149597168,
+            "min": 33.32391357421875,
+            "max": 80.83433532714844
+          },
+          "soil_moisture": {
+            "mean": 40.098548889160156,
+            "std": 8.989176750183105,
+            "min": 17.69359588623047,
+            "max": 62.79590606689453
+          },
+          "light": {
+            "mean": 27422.603515625,
+            "std": 11607.662109375,
+            "min": 3617.30517578125,
+            "max": 56149.59765625
+          }
+        }
+      }
+    },
+    "val": {
+      "reasonable": true,
+      "checks": {
+        "has_samples": true,
+        "all_anomaly_types_present": true,
+        "anomaly_density_reasonable": true,
+        "credibility_target_reasonable": true
+      },
+      "summary": {
+        "sample_count": 600,
+        "num_sensors": 7,
+        "window_size": 60,
+        "feature_dim": 1,
+        "anomalous_sample_count": 470,
+        "anomalous_sample_ratio": 0.7833333333333333,
+        "anomaly_point_count": 20771,
+        "anomaly_density": 0.0824246034026146,
+        "avg_credibility_target": 0.9175754189491272,
+        "anomaly_type_counts": {
+          "BIAS": 160,
+          "DRIFT": 144,
+          "NOISE": 159,
+          "RANDOM": 168,
+          "SPIKE": 153,
+          "STUCK_AT": 156
+        },
+        "sensor_statistics": {
+          "temp_1": {
+            "mean": 23.64668083190918,
+            "std": 6.29205846786499,
+            "min": -39.846248626708984,
+            "max": 79.84909057617188,
+            "anomaly_ratio": 0.08758333325386047,
+            "clean_ratio": 0.9124166965484619
+          },
+          "humidity_1": {
+            "mean": 57.2012825012207,
+            "std": 10.931827545166016,
+            "min": 0.07860660552978516,
+            "max": 99.99519348144531,
+            "anomaly_ratio": 0.07352777570486069,
+            "clean_ratio": 0.9264722466468811
+          },
+          "temp_2": {
+            "mean": 23.555622100830078,
+            "std": 6.361405372619629,
+            "min": -39.878578186035156,
+            "max": 79.9085922241211,
+            "anomaly_ratio": 0.085027776658535,
+            "clean_ratio": 0.9149722456932068
+          },
+          "humidity_2": {
+            "mean": 57.26738357543945,
+            "std": 11.113509178161621,
+            "min": 0.08491277694702148,
+            "max": 99.91452026367188,
+            "anomaly_ratio": 0.08966666460037231,
+            "clean_ratio": 0.9103333353996277
+          },
+          "soil_1": {
+            "mean": 39.71246337890625,
+            "std": 10.257200241088867,
+            "min": -22.070037841796875,
+            "max": 99.93634796142578,
+            "anomaly_ratio": 0.07488889247179031,
+            "clean_ratio": 0.9251111149787903
+          },
+          "soil_2": {
+            "mean": 39.673274993896484,
+            "std": 10.368206977844238,
+            "min": -3.498678207397461,
+            "max": 99.98442840576172,
+            "anomaly_ratio": 0.08500000089406967,
+            "clean_ratio": 0.9150000214576721
+          },
+          "light": {
+            "mean": 28586.26171875,
+            "std": 11583.3310546875,
+            "min": 5.429604530334473,
+            "max": 65357.640625,
+            "anomaly_ratio": 0.08127778023481369,
+            "clean_ratio": 0.9187222123146057
+          }
+        },
+        "output_statistics": {
+          "temperature": {
+            "mean": 23.66370391845703,
+            "std": 4.000669002532959,
+            "min": 13.745285034179688,
+            "max": 34.228572845458984
+          },
+          "humidity": {
+            "mean": 57.295082092285156,
+            "std": 10.352952003479004,
+            "min": 33.800987243652344,
+            "max": 80.86947631835938
+          },
+          "soil_moisture": {
+            "mean": 39.568050384521484,
+            "std": 9.048463821411133,
+            "min": 18.120861053466797,
+            "max": 61.789005279541016
+          },
+          "light": {
+            "mean": 28512.548828125,
+            "std": 11419.3837890625,
+            "min": 4025.998291015625,
+            "max": 55818.79296875
+          }
+        }
+      }
+    },
+    "overall_reasonable": true
+  },
+  "validation_losses": {
+    "fusion": 0.00041991829057224094,
+    "credibility": 0.20772502571344376,
+    "anomaly": 0.8020894825458527,
+    "consistency": 0.015428283903747796,
+    "uncertainty": -2.5342541217803953,
+    "total": 0.3367392152547836
+  },
+  "validation_metrics": {
+    "mae": 220.91690063476562,
+    "rmse": 871.9345703125,
+    "mape": 3.161417692899704,
+    "per_channel_mae": {
+      "temperature": 0.4797537922859192,
+      "humidity": 2.1463727951049805,
+      "soil_moisture": 1.215370774269104,
+      "light": 879.8261108398438
+    },
+    "per_channel_rmse": {
+      "temperature": 0.7560492157936096,
+      "humidity": 2.4852006435394287,
+      "soil_moisture": 1.7211834192276,
+      "light": 1743.8663330078125
+    },
+    "improvement_vs_mean": 0.0,
+    "improvement_vs_median": 0.0,
+    "anomaly_auc": 0.8076902493147109,
+    "anomaly_precision": 0.4376199543476105,
+    "anomaly_recall": 0.7276595830917358,
+    "anomaly_f1": 0.5465441391002903,
+    "credibility_mae": 0.3360390365123749,
+    "system_confidence_mean": 0.6887062788009644
+  }
+}

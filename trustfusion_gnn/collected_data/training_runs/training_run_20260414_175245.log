@@ -1,0 +1,27 @@
+2026-04-14 17:52:45,920 | INFO | Trainer initialized | {"device": "cpu", "num_sensors": 7, "run_name": "simulated_run_20260414_175245", "window_size": 60}
+2026-04-14 17:52:45,921 | INFO | Training started | {"num_epochs": 20, "patience": 5}
+2026-04-14 17:53:04,966 | INFO | Epoch completed | {"epoch": 1, "epoch_time_sec": 19.045037984848022, "f1": 0.34884771585972146, "mae": 1664.7611083984375, "train_loss": 0.9281791672110558, "val_loss": 0.8371076226234436}
+2026-04-14 17:53:04,970 | INFO | New best model | {"best_val_loss": 0.8371076226234436, "epoch": 1}
+2026-04-14 17:53:23,286 | INFO | Epoch completed | {"epoch": 2, "epoch_time_sec": 18.316299200057983, "f1": 0.4262948279972124, "mae": 619.8369750976562, "train_loss": 0.6728230193257332, "val_loss": 0.8888016462326049}
+2026-04-14 17:53:42,089 | INFO | Epoch completed | {"epoch": 3, "epoch_time_sec": 18.80308485031128, "f1": 0.4509536915469846, "mae": 351.1183166503906, "train_loss": 0.5547352656722069, "val_loss": 0.7342740178108216}
+2026-04-14 17:53:42,092 | INFO | New best model | {"best_val_loss": 0.7342740178108216, "epoch": 3}
+2026-04-14 17:54:00,799 | INFO | Epoch completed | {"epoch": 4, "epoch_time_sec": 18.70730185508728, "f1": 0.4422403627875143, "mae": 326.20733642578125, "train_loss": 0.5209380760788918, "val_loss": 0.5037637948989868}
+2026-04-14 17:54:00,802 | INFO | New best model | {"best_val_loss": 0.5037637948989868, "epoch": 4}
+2026-04-14 17:54:19,393 | INFO | Epoch completed | {"epoch": 5, "epoch_time_sec": 18.5905499458313, "f1": 0.47612550717175056, "mae": 278.19134521484375, "train_loss": 0.49066227674484253, "val_loss": 0.46306084394454955}
+2026-04-14 17:54:19,396 | INFO | New best model | {"best_val_loss": 0.46306084394454955, "epoch": 5}
+2026-04-14 17:54:37,872 | INFO | Epoch completed | {"epoch": 6, "epoch_time_sec": 18.47608709335327, "f1": 0.503278677749806, "mae": 391.88330078125, "train_loss": 0.4752924283966422, "val_loss": 0.4852005362510681}
+2026-04-14 17:54:56,463 | INFO | Epoch completed | {"epoch": 7, "epoch_time_sec": 18.590131044387817, "f1": 0.5334491722647632, "mae": 403.67755126953125, "train_loss": 0.4561327341943979, "val_loss": 0.6561057925224304}
+2026-04-14 17:55:15,792 | INFO | Epoch completed | {"epoch": 8, "epoch_time_sec": 19.328616857528687, "f1": 0.43512304868988694, "mae": 716.0888671875, "train_loss": 0.4453152250498533, "val_loss": 0.8644175052642822}
+2026-04-14 17:55:34,985 | INFO | Epoch completed | {"epoch": 9, "epoch_time_sec": 19.19302797317505, "f1": 0.38543896380254106, "mae": 392.70465087890625, "train_loss": 0.43828871939331293, "val_loss": 0.4749177753925323}
+2026-04-14 17:55:54,284 | INFO | Epoch completed | {"epoch": 10, "epoch_time_sec": 19.297548055648804, "f1": 0.533891203958282, "mae": 627.075439453125, "train_loss": 0.4384904373437166, "val_loss": 0.4333826243877411}
+2026-04-14 17:55:54,287 | INFO | New best model | {"best_val_loss": 0.4333826243877411, "epoch": 10}
+2026-04-14 17:56:13,373 | INFO | Epoch completed | {"epoch": 11, "epoch_time_sec": 19.08550715446472, "f1": 0.37933883821625586, "mae": 320.3232116699219, "train_loss": 0.42869541235268116, "val_loss": 0.451028037071228}
+2026-04-14 17:56:32,509 | INFO | Epoch completed | {"epoch": 12, "epoch_time_sec": 19.135191917419434, "f1": 0.552158266522105, "mae": 305.75439453125, "train_loss": 0.4182789381593466, "val_loss": 0.3793339908123016}
+2026-04-14 17:56:32,512 | INFO | New best model | {"best_val_loss": 0.3793339908123016, "epoch": 12}
+2026-04-14 17:56:51,145 | INFO | Epoch completed | {"epoch": 13, "epoch_time_sec": 18.633097887039185, "f1": 0.36575875395973795, "mae": 268.1767883300781, "train_loss": 0.40416176710277796, "val_loss": 0.916063106060028}
+2026-04-14 17:57:10,449 | INFO | Epoch completed | {"epoch": 14, "epoch_time_sec": 19.303021907806396, "f1": 0.41501974640311734, "mae": 412.93548583984375, "train_loss": 0.4075550166890025, "val_loss": 0.4568735003471375}
+2026-04-14 17:57:29,680 | INFO | Epoch completed | {"epoch": 15, "epoch_time_sec": 19.23016333580017, "f1": 0.6886145250996059, "mae": 231.06134033203125, "train_loss": 0.4030326046049595, "val_loss": 0.434746915102005}
+2026-04-14 17:57:49,106 | INFO | Epoch completed | {"epoch": 16, "epoch_time_sec": 19.42574167251587, "f1": 0.36575875395973795, "mae": 333.1713562011719, "train_loss": 0.39410077780485153, "val_loss": 0.9062605381011963}
+2026-04-14 17:58:08,196 | INFO | Epoch completed | {"epoch": 17, "epoch_time_sec": 19.089365005493164, "f1": 0.6227795062085919, "mae": 340.5455627441406, "train_loss": 0.3893481306731701, "val_loss": 0.4095779299736023}
+2026-04-14 17:58:08,197 | INFO | Early stopping triggered | {"epoch": 17, "patience": 5}
+2026-04-14 17:58:08,199 | INFO | Best model restored | {"best_val_loss": 0.3793339908123016}
